@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Party Planner</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="partyplanner.js"></script>
+  </head>
+  <body>
+    <h1>Party party party planning</h1>
+    <form id="addParty">
+      <label>
+        Party Name
+        <input type="text" name="title" placeholder="Party Name" />
+      </label>
+      <br />
+      <label>
+        Party Date / Time
+        <input type="datetime-local" name="date" />
+      </label>
+      <br />
+      <label>
+        Party Description
+        <input type="text" name="description" placeholder="Event description" />
+      </label>
+      <br />
+      <label>
+        Party Location
+        <input type="text" name="location" placeholder="Address" />
+      </label>
+      <br />
+      <button>Add Party</button>
+    </form>
+    <ul id="parties"></ul>
+  </body>
+</html>
